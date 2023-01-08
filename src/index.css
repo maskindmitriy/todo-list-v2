@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+.roundedBtn {
+    position:fixed;
+    right: 5px;
+    bottom: 5px;
+    border-radius: 50%;
+    width: 3rem;
+    height: 3rem;
+    border: none;
+    background-color: blue;
+    color: #ffffff;
+    font-size: 25px;
+    transition: background 0.3s;
+}
+
+.roundedBtn:hover {
+    background: rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+}

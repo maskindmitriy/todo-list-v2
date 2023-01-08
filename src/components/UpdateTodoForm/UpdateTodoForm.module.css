@@ -1,0 +1,14 @@
+.formWrapper {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    height: calc(100vh - 48px);
+}
+
+.loginForm {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 300px;
+}
